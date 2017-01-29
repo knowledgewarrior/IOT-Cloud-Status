@@ -1,10 +1,10 @@
 #include <ESP8266WiFi.h>
 #include <ArduinoJson.h>
 
-const char* ssid     = "tinfoilhat";  
-const char* password = "fatherknowsbest";
+const char* ssid     = "MY_WIFI_SSID";  
+const char* password = "MY_WIFI_PASSWORD";
 
-const char* host     = "209.141.40.39"; // Your domain  
+const char* host     = "www.example.com"; // your web server domain/ip  
 String path          = "/status.json";  
 const int pin1        = 0;
 const int pin2        = 2;
